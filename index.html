@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/eebd6b6ac7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Internship</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-business-time" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Asritha</span> <br>From India</h1>
+                </div>
+            </div>
+           
+        </div>
+        <!---about--->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/2.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p style="color:black;">I am Asritha . <br>I am pursing my B-Tech in VVIT in the stream of Computer Science Engineering.
+                            I did my Intermediate from Narayana Jr College in 2020 with 10 CGPA.
+                            And I did my SSC from Nirmala Concept School in 2018 with 9.8 CGPA. 
+                            Coming to My Strengths I am a quick learner and a hard worker.
+                            My short-term goal is to find work in a well-known organization.
+                            My long-term goal is to attain a leading position in my profession.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>FrontEnd</span><br>Developer</li>
+                                <li><span>DataAnalytics</span><br>Certified</li>
+                                <li><span>Python</span><br>Programming</li>
+                                <li><span>Java</span><br>Programming</li>
+                                <li><span>Azure AI Fundamentals</span><br>Certified</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Python</span><br>Hands On Experience</li>
+                                <li><span>powerBI</span><br>Hands On Experience</li>
+                                <li><span>Web Developement</span><br>Internship</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B-Tech</span><br>CGPA:8.9   2020-2024     VVIT</li>
+                                <li><span>Intermediate</span><br>CGPA:10 2018-2020   Narayana Junior College</li>
+                                <li><span>SSC</span><br>CGPA:9.8  2017-2018    Nirmala High School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---Internships--->
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">My Internships</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>DataAnalytics</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Salesforce</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-----Portfolio---->
+        <div id="Portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="images/Data Analytics .png.jpg">
+                        <div class="layer">
+                            <h3>Data Analytics</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Salesforce Developer_page-0001.jpg">
+                        <div class="layer">
+                            <h3>Salesforce</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/OASIS_page-0001.jpg">
+                        <div class="layer">
+                            <h3>Oasis Infobyte</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/wiproFullstack.png">
+                        <div class="layer">
+                            <h3>Wipro FullStack</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/GoogleDataAnalytics.png">
+                        <div class="layer">
+                            <h3>Google Data Analytics</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/NPTEL.png">
+                        <div class="layer">
+                            <h3>NPTEL-DataAnalytics</h3>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>mallavarapuasritha@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 6304962236</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>   
+                </div>
+                <a href="images/Mallavarapu Asritha.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="name" placeholder="Your email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-heart"></i>copyright @ Asritha</p>
+    </div>
+</div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu=Document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+    
+    </body>
+</hmtl>
